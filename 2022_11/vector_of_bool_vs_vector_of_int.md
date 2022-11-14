@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	constexpr int MAX = 10240000;
+	constexpr size_t MAX = 10240000;
 
 	{
 		std::vector<int> vec;
