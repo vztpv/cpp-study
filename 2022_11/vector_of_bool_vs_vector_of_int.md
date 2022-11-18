@@ -13,7 +13,7 @@ int main(void)
 
 	{
 		std::vector<int> vec;
-		int a = 0, b = 0;
+		clock_t a = 0, b = 0;
 
 		a = clock();
 		vec.reserve(MAX);
@@ -26,7 +26,7 @@ int main(void)
 
 	{
 		std::vector<bool> vec;
-		int a = 0, b = 0;
+		clock_t a = 0, b = 0;
 
 		a = clock();
 		vec.reserve(MAX);
@@ -39,7 +39,7 @@ int main(void)
 
 	{
 		std::vector<bool> vec(MAX, false);
-		int a = 0, b = 0;
+		clock_t a = 0, b = 0;
 
 		a = clock();
 
@@ -53,7 +53,7 @@ int main(void)
 
 	{
 		std::vector<int> vec(MAX, 0);
-		int a = 0, b = 0;
+		clock_t a = 0, b = 0;
 
 		a = clock();
 
