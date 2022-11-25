@@ -21,3 +21,4 @@ int main(void)
   return 0;
 }
 ```
+# cf) new - 1. memory allocation 2. call constructor
