@@ -5,7 +5,7 @@
 class AAA {
 public:
   AAA() = delete;
-  AAA(int) { } // parameter name omitted.
+  AAA(int) { } // parameter name is omitted.
 };
 
 int main(void)
