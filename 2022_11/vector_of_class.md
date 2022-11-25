@@ -1,7 +1,6 @@
 ```c++
 #include <iostream>
 #include <vector>
-#include <ctime>
 
 class AAA {
 public:
