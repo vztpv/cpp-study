@@ -1,8 +1,6 @@
 ```c++
 #include <iostream>
 #include <vector>
-#include <memory_resource>
-#include <array>
 #include <ctime>
 
 class AAA {
